@@ -1,0 +1,25 @@
+.featured-properties {
+    padding: 60px 40px;
+    background-color: white;
+}
+
+.featured-properties h2 {
+    color: #173F3A;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.properties-list {
+    display: flex;
+    gap: 25px;
+    overflow-x: auto;
+    padding-bottom: 15px;
+}
+
+.property-card {
+    min-width: 280px;
+    padding: 25px;
+    border-radius: 12px;
+    background-color: #f3f6f4;
+    color: #173F3A;
+}
