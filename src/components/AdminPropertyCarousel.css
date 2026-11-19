@@ -1,0 +1,175 @@
+.admin-property-carousel {
+    margin-top: 35px;
+}
+
+.admin-property-carousel h2 {
+    color: #173F3A;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.admin-property-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.admin-property-card {
+    min-width: 0;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #e5eae7;
+}
+
+.admin-property-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.admin-property-info {
+    padding: 18px;
+}
+
+.admin-property-info h3 {
+    color: #173F3A;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.admin-property-info p {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.admin-property-info strong {
+    color: #173F3A;
+    font-size: 17px;
+}
+
+.carousel-controls {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.carousel-controls button {
+    width: 36px;
+    height: 36px;
+    border: 1px solid #dce4e1;
+    border-radius: 50%;
+    background-color: white;
+    color: #173F3A;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.carousel-controls button:hover {
+    background-color: #173F3A;
+    color: white;
+}
+
+.btn-load-more {
+    display: block;
+    margin: 30px auto 0;
+    padding: 12px 28px;
+    background-color: transparent;
+    color: #173F3A;
+    border: 1px solid #173F3A;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn-load-more:hover {
+    background-color: #173F3A;
+    color: white;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 35px;
+}
+
+.pagination button {
+    padding: 10px 20px;
+    border: 1px solid #173F3A;
+    border-radius: 8px;
+    background-color: white;
+    color: #173F3A;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.pagination button:hover:not(:disabled) {
+    background-color: #173F3A;
+    color: white;
+}
+
+.pagination button:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.pagination span {
+    color: #666;
+    font-size: 14px;
+}
+
+.admin-property-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 18px;
+}
+
+.admin-property-buttons button {
+    flex: 1;
+    padding: 9px;
+    border-radius: 7px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn-edit {
+    background-color: #edf3f1;
+    color: #173F3A;
+    border: 1px solid #dce4e1;
+}
+
+.btn-edit:hover {
+    background-color: #dce9e5;
+}
+
+.btn-delete {
+    background-color: #fff1f1;
+    color: #b45b5b;
+    border: 1px solid #f0dada;
+}
+
+.btn-delete:hover {
+    background-color: #f9dddd;
+}
+
+@media (max-width: 768px) {
+    .admin-property-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .admin-property-list {
+        grid-template-columns: 1fr;
+    }
+}

@@ -59,3 +59,15 @@
     margin: 0;
     font-size: 12px;
 }
+
+.admin-link {
+    margin-top: 12px;
+    font-size: 12px;
+    color: #8a9b96;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.admin-link:hover {
+    color: #ffffff;
+}
